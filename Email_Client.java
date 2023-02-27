@@ -87,8 +87,8 @@ public class Email_Client {
     //==========================================emailSending==============================================================================
     public  static void emailSender(Email email,ArrayList<Email> emailHistoryList) throws IOException {
         // code to send an email//////////////////////////////////////////////
-        final String username = "shanmugakumar.18@cse.mrt.ac.lk";
-        final String password = "Shanmu@25621";
+        final String username = "";
+        final String password = "";
 
         Properties prop = new Properties();
         prop.put("mail.smtp.host", "smtp.gmail.com");
